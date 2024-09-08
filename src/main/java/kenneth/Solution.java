@@ -8,7 +8,7 @@ public class Solution {
         System.out.println("Hello World!");
     }
 
-    public static int sumOfTwoInt(int a, int b) {
+    public int sumOfTwoInt(int a, int b) {
         return a + b;
     }
 

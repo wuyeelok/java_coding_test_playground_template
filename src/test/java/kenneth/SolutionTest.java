@@ -11,9 +11,12 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class SolutionTest {
 
+    private Solution solution;
+
     @BeforeEach
     void setUp() {
         // Setting up variables before each unit test
+        solution = new Solution();
     }
 
     @AfterEach
@@ -22,23 +25,23 @@ class SolutionTest {
     }
 
     @Test
-    void sumOfTwoIntA() {
+    void sumOfTwoIntExample1() {
         int i = 1;
         int j = 2;
 
         int expectedResult = 3;
-        int actualResult = Solution.sumOfTwoInt(1, 2);
+        int actualResult = solution.sumOfTwoInt(i, j);
 
         assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    void sumOfTwoIntB() {
+    void sumOfTwoIntExample2() {
         int i = 9;
         int j = 47;
 
         int expectedResult = 56;
-        int actualResult = Solution.sumOfTwoInt(9, 47);
+        int actualResult = solution.sumOfTwoInt(i, j);
 
         assertEquals(expectedResult, actualResult);
     }
