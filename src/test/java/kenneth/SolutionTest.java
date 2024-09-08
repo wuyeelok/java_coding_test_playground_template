@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit Test for verifying App function(s)
  */
-class AppTest {
+class SolutionTest {
 
     @BeforeEach
     void setUp() {
@@ -27,7 +27,7 @@ class AppTest {
         int j = 2;
 
         int expectedResult = 3;
-        int actualResult = App.sumOfTwoInt(1, 2);
+        int actualResult = Solution.sumOfTwoInt(1, 2);
 
         assertEquals(expectedResult, actualResult);
     }
@@ -38,7 +38,7 @@ class AppTest {
         int j = 47;
 
         int expectedResult = 56;
-        int actualResult = App.sumOfTwoInt(9, 47);
+        int actualResult = Solution.sumOfTwoInt(9, 47);
 
         assertEquals(expectedResult, actualResult);
     }

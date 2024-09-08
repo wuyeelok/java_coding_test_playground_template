@@ -3,7 +3,7 @@ package kenneth;
 /**
  * Main class for defining the required function(s).
  */
-public class App {
+public class Solution {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
